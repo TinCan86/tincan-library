@@ -1,5 +1,5 @@
 {
-  "name": "@roberthansson/component-library",
+  "name": "@roberthansson/tincan-library",
   "version": "1.0.0",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
