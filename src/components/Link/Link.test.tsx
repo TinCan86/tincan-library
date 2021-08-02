@@ -18,7 +18,7 @@ describe("Link", () => {
   });
   test("renders a target Link", async () => {
     render(
-      <Link color="hotpink" to="www.saykorv.nu" targetPath="_blank">
+      <Link color="green" to="www.saykorv.nu" targetPath="_blank">
         Link
       </Link>
     );
@@ -27,7 +27,7 @@ describe("Link", () => {
       "www.saykorv.nu"
     );
     expect(screen.getByText("Link")).toHaveStyle({
-      color: "hotpink",
+      color: "green",
     });
   });
 });

@@ -26,7 +26,7 @@ Default.args = {};
 export const TargetPathLink = Template.bind({});
 TargetPathLink.args = {
   targetPath: "_blank",
-  color: "hotpink",
+  color: "green",
 };
 
 export const CustomFontColor = Template.bind({});
